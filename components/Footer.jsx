@@ -13,7 +13,7 @@ export default function ContactFooter() {
   ]
 
   return (
-    <footer className="bg-gradient-to-b from-light-primary to-light-secondary dark:from-dark-primary dark:to-dark-secondary py-20">
+    <section id="contact" className="bg-gradient-to-b from-light-primary to-light-secondary dark:from-dark-primary dark:to-dark-secondary py-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -70,6 +70,6 @@ export default function ContactFooter() {
           </motion.div>
         </motion.div>
       </div>
-    </footer>
+    </section>
   )
 }

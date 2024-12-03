@@ -29,7 +29,7 @@ export default function Experience() {
   ]
 
   return (
-    <section className="py-20 bg-light-primary dark:bg-dark-primary">
+    <section id="experience" className="py-20 bg-light-primary dark:bg-dark-primary">
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
