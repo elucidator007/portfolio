@@ -52,8 +52,8 @@ export default function Hero() {
             
             <div className="flex justify-center gap-6 mt-8">
               {[
-                { icon: Github, href: "https://github.com" },
-                { icon: Linkedin, href: "https://linkedin.com" },
+                { icon: Github, href: "https://github.com/elucidator007" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/ankush-sangwan-2901/" },
                 { icon: Mail, href: "mailto:ankush2000sangwan@gmail.com" }
               ].map((item, index) => (
                 <motion.a

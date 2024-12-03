@@ -4,6 +4,7 @@
 import { Button } from "@/components/ui/button"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from './ThemeProvider'
+import MobileNav from './MobileNav'
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme()
@@ -42,6 +43,7 @@ export default function Header() {
               <Sun className="h-5 w-5 text-[#BBE1FA]" />
             }
           </Button>
+          <MobileNav />
         </div>
       </nav>
     </header>
